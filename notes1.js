@@ -25,7 +25,7 @@ var addNote = (customer_id,customer_name,customer_email) => {
     var notes1 = fetchNotes1();
     var note = {customer_id,customer_name,customer_email}
 
-    var duplicateNotes1 =  notes1.filter((note) => { // to check if note already exists
+    var duplicateNotes1 =  notes1.filter((note) => { // to check if the note already exists
         return note.customer_id === customer_id;
     });
 
