@@ -33,7 +33,7 @@ const argv =  yargs
         customer_name: customer_nameOptions,
         customer_email: customer_emailOptions
     })
-    .command('list','List all notes')
+    .command('list','List all  notes')
     .command('read','Read a note',{
         customer_id: customer_idOptions
     })
